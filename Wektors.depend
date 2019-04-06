@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1554545126 source:d:\c++ visualstudio programy\wektors\vector4d.cpp
+	"Vector4D.h"
+
+1554545061 d:\c++ visualstudio programy\wektors\vector4d.h
+	<iostream>
+	<math.h>
+
+1554545181 source:d:\c++ visualstudio programy\wektors\vector3d.cpp
+	"Vector3D.h"
+
+1554545151 d:\c++ visualstudio programy\wektors\vector3d.h
+	<iostream>
+	<math.h>
+
+1554545257 source:d:\c++ visualstudio programy\wektors\main.cpp
+	<iostream>
+	"Math.h"
+
+1554544970 d:\c++ visualstudio programy\wektors\math.h
+	<iostream>
+	"Vector3D.h"
+	"Vector4D.h"
+
