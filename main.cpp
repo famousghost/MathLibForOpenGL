@@ -14,6 +14,8 @@ int main()
 
 
     std::cout<<crossProduct(c, d)<<std::endl;
+    std::cout<<normalize(c)<<std::endl;
+    std::cout<<c.length()<<std::endl;
     std::cout<<dotProduct(c, d)<<std::endl;
     return 0;
 }

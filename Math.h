@@ -19,6 +19,18 @@ float dotProduct(Vector4D& p_vec1, Vector4D& p_vec2)
            (p_vec1.getW() * p_vec2.getW());
 }
 
+Vector3D& normalize(Vector3D& p_vec1)
+{
+    p_vec1 *= (1/p_vec1.length());
+    return p_vec1;
+}
+
+Vector4D& normalize(Vector4D& p_vec1)
+{
+    p_vec1 *= (1/p_vec1.length());
+    return p_vec1;
+}
+
 Vector3D crossProduct(Vector3D& p_vec1, Vector3D& p_vec2)
 {
     float x = p_vec1.getY() * p_vec2.getZ() - p_vec1.getZ() * p_vec2.getY();
